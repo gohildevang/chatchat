@@ -1,6 +1,6 @@
-# NexaTalk - Modern Chat Experience
+# ChatChat - Simple & Beautiful
 
-A full-featured real-time chat application with cutting-edge design and smooth animations, built with modern web technologies.
+A full-featured real-time chat application with clean design and smooth animations, built with modern web technologies.
 
 ## Features
 
@@ -23,7 +23,7 @@ A full-featured real-time chat application with cutting-edge design and smooth a
 - File size limits and type validation
 
 ### 🎨 Modern UI/UX
-- Telegram-inspired design
+- Clean and simple design
 - Dark and light mode support
 - Responsive layout for desktop and mobile
 - Smooth animations and transitions
@@ -42,7 +42,7 @@ A full-featured real-time chat application with cutting-edge design and smooth a
 
 ### Frontend
 - **HTML5** - Semantic markup
-- **CSS3** - Modern styling with CSS variables, animations, and glassmorphism effects
+- **CSS3** - Modern styling with CSS variables, animations
 - **Vanilla JavaScript** - No frameworks, pure ES6+ JavaScript
 - **Socket.IO Client** - Real-time communication
 - **Inter Font** - Modern typography
@@ -67,9 +67,10 @@ Before running the application, make sure you have the following installed:
 
 ## Installation & Setup
 
-1. **Clone the repository** (or extract the files)
+1. **Clone the repository**
    ```bash
-   cd telegram-chat
+   git clone https://github.com/gohildevang/chatchat.git
+   cd chatchat
    ```
 
 2. **Install backend dependencies**
@@ -83,7 +84,7 @@ Before running the application, make sure you have the following installed:
    The `.env` file is already created with default values:
    ```
    PORT=5000
-   MONGODB_URI=mongodb://localhost:27017/nexatalk
+   MONGODB_URI=mongodb://localhost:27017/chatchat
    JWT_SECRET=your_super_secret_jwt_key_here_change_this_in_production
    NODE_ENV=development
    ```
@@ -122,7 +123,7 @@ Before running the application, make sure you have the following installed:
 ## Project Structure
 
 ```
-nexatalk/
+chatchat/
 ├── backend/
 │   ├── config/
 │   │   └── database.js          # MongoDB connection
@@ -153,25 +154,23 @@ nexatalk/
 │   └── index.html               # Main HTML file
 ├── uploads/                     # Uploaded files storage
 └── README.md                    # This file
+```
 
 ## Design Features
 
 ### 🎨 Modern UI/UX
-- **Glassmorphism Effects** - Translucent surfaces with backdrop blur
-- **Smooth Animations** - 60fps animations with cubic-bezier easing
-- **Gradient Backgrounds** - Beautiful color gradients throughout
-- **Micro-interactions** - Hover effects and state transitions
+- **Clean Design** - Simple and intuitive interface
+- **Smooth Animations** - Subtle transitions and effects
+- **Professional Colors** - Blue, green, and teal color scheme
+- **Responsive Design** - Works on all screen sizes
 - **Modern Typography** - Inter font for clean, readable text
-- **Responsive Design** - Optimized for all screen sizes
 
 ### ✨ Animation System
-- **Loading Animations** - Floating logo and grid background
+- **Loading Animations** - Floating logo effects
 - **Message Animations** - Slide-in effects for new messages
-- **Button Interactions** - Scale, rotate, and glow effects
-- **Typing Indicators** - Animated dots with staggered timing
-- **Modal Transitions** - Smooth scale and slide animations
-- **Status Indicators** - Pulsing online/offline states
-```
+- **Button Interactions** - Hover and click effects
+- **Typing Indicators** - Animated dots
+- **Modal Transitions** - Smooth open/close animations
 
 ## API Endpoints
 
@@ -272,24 +271,10 @@ npm run dev
 Create a `.env` file in the backend directory with:
 ```
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/telegram-chat
+MONGODB_URI=mongodb://localhost:27017/chatchat
 JWT_SECRET=your_super_secret_jwt_key_here
 NODE_ENV=development
 ```
-
-### Debug Mode
-In development (localhost), you can enable debug mode:
-```javascript
-// In browser console
-telegramApp.enableDebug()
-```
-
-This provides additional debugging functions:
-- `appDebug.info()` - Get app information
-- `appDebug.restart()` - Restart the application
-- `appDebug.clearStorage()` - Clear all storage and reload
-- `appDebug.testNotification(type)` - Test notifications
-- `appDebug.checkSocket()` - Check socket connection status
 
 ## Security Features
 
@@ -339,38 +324,6 @@ This project is licensed under the MIT License.
    - Allow notifications in your browser
    - Check browser notification settings
 
-### Getting Help
-
-If you encounter any issues:
-1. Check the browser console for errors
-2. Check the backend server logs
-3. Enable debug mode for additional information
-4. Ensure all dependencies are properly installed
-
-## Future Enhancements
-
-- Voice messages
-- Video calls
-- Message forwarding
-- Chat export/backup
-- Admin panel
-- Push notifications (PWA)
-- Message search
-- Custom themes
-- Stickers and GIFs
-- Message threading
-
 ---
 
-**Enjoy your new NexaTalk experience! 🚀**
-
-## Visual Enhancements
-
-- **Modern Color Palette** - Indigo, purple, and cyan gradients
-- **Enhanced Shadows** - Layered shadows for depth
-- **Smooth Transitions** - All interactions are animated
-- **Glass Effects** - Frosted glass appearance on modals
-- **Floating Elements** - Subtle hover animations
-- **Gradient Borders** - Colorful accents throughout the UI#   c h a t c h a t  
- #   c h a t c h a t  
- 
+**Enjoy your ChatChat experience! 🚀**
